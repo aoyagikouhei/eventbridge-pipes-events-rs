@@ -39,7 +39,7 @@ pub struct KinesisEventRecord {
 }
 
 impl KinesisEventRecord {
-    pub fn retrive_json<T>(&self) -> Result<T, Error>
+    pub fn retrive_data<T>(&self) -> Result<T, Error>
     where
         T: DeserializeOwned,
     {

@@ -1,6 +1,6 @@
 use std::ops::Deref;
 
-use aws_lambda_events::encodings::{Base64Data, SecondTimestamp};
+pub use aws_lambda_events::encodings::{Base64Data, SecondTimestamp};
 use serde::{de::DeserializeOwned, Deserialize, Serialize};
 
 use crate::error::Error;

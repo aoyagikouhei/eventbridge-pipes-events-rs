@@ -1,5 +1,10 @@
 # Changes
 
+## v0.2.0 (2024/07/01)
+* edition 2024
+* cargo update
+
+
 ## v0.1.2 (2024/07/01)
 * reexport Base64Data, SecondTimestamp
 
